@@ -1,0 +1,23 @@
+{
+  "name": "simple-boilerplate",
+  "version": "1.0.0",
+  "description": "HTML/CSS/JS Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serpient/simple-boilerplate.git"
+  },
+  "author": "serpient",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serpient/simple-boilerplate/issues"
+  },
+  "homepage": "https://github.com/serpient/simple-boilerplate#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
