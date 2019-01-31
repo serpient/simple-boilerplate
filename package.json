@@ -4,7 +4,6 @@
   "description": "HTML/CSS/JS Boilerplate",
   "main": "index.js",
   "scripts": {
-    "start": "node live-server.js"
   },
   "repository": {
     "type": "git",
