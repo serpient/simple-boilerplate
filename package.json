@@ -20,8 +20,6 @@
     "babel-preset-env": "^1.7.0"
   },
   "dependencies": {
-    "concurrently": "^4.1.0",
-    "live-server": "^1.2.1",
-    "nodemon": "^1.18.9"
+    "live-server": "^1.2.1"
   }
 }
