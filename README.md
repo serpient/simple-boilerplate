@@ -6,12 +6,7 @@ Simple Boilerplate is for HTML/CSS, Javascript, and JQuery projects. It has been
 ### Getting Started
 You can either fork or clone this repo.
 ```
-git clone https://github.com/serpient/simple-boilerplate.git
-
-// move into the directory
-
-npm install // installs all the development dependencies 
-live-server // starts local server
+npm install simple-live-boilerplate
 ```
 
 ### Starting Live Server
