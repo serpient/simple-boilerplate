@@ -1,8 +1,7 @@
 const testerJs = () => {
-  var test = 'test';
   $(document).ready(() => {
-    $('p').css('background-color', 'red');
-    // $('p').text(`${test}`);
+    $('.subtext').css('color', 'red');
+    $('.subtext').css('background-color', 'blue');
   })
 }
 
