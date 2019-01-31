@@ -26,3 +26,8 @@ live-server // starts local server
 2. Go to your browser and check out `http://<YourUsername>.github.io/<yourRepoName>`. Give it a few minutes to see your changes!
 
 [More Info](https://pages.github.com/)
+
+
+### Deployment to Heroku
+If you want to deploy to Heroku, it would require you to write a small simple server that would serve the `index.html` file as an entry point. This boilerplate isn't setup for that, but feel free to add it yourself!
+[Something to research here](https://blog.teamtreehouse.com/deploy-static-site-heroku)
