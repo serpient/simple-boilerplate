@@ -1,0 +1,7 @@
+{
+  "port": 3000,
+  "host": "localhost",
+  "root": "./",
+  "open": "true",
+  "file": "index.html"
+}
