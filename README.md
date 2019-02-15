@@ -4,7 +4,7 @@
 Simple Boilerplate is for HTML/CSS, Javascript, and JQuery projects. It has been setup with a live server so that you can see live changes with every save.
 
 ## Getting Started
-You can either fork or clone this repo.
+Instructions to clone this repo.
 ```
 git clone https://github.com/serpient/simple-boilerplate.git my-app-name
 cd my-app-name
