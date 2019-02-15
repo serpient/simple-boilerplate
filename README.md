@@ -22,6 +22,7 @@ live-server
 - `git remote add origin <your github repository link>` - As mentioned above, this is how you add a new origin link for your repository. As in, any changes in your local development will be "pushed" and sent to the repository link you set.
 - `git push -u origin master` - Pushes all your local repository changes to master branch, aka your github repository master-branch.
 - `npm install` - Installs all development dependencies the repository will need. 
+- `npm i -g live-server` - Installs live-server globally
 - `live-server` - Starts the live server so all changes in your code will be reflected immediately
 
 ## Starting Live Server
