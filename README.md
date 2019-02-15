@@ -8,6 +8,10 @@ You can either fork or clone this repo.
 ```
 git clone https://github.com/serpient/simple-boilerplate.git my-app-name
 cd my-app-name
+git remote rm origin
+git remote add origin <your github repository link>
+git push -u origin master
+
 npm install
 live-server
 ```
