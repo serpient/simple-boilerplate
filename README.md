@@ -16,7 +16,7 @@ npm install
 live-server
 ```
 
-What do these commands do?
+#### What do these commands do?
 - `git clone <github repo link> my-app-name` - Copies the repository onto your computer as a new folder called "my-app-name"
 - `git remote rm origin` - At this point, this repository copy is still connected to the simple-boilerplate github repository. This command will remove the remote origin link so you can connect it to a new link.
 - `git remote add origin <your github repository link>` - As mentioned above, this is how you add a new origin link for your repository. As in, any changes in your local development will be "pushed" and sent to the repository link you set.
