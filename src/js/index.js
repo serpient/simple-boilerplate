@@ -1,8 +1,20 @@
-const testerJs = () => {
-  $(document).ready(() => {
-    $('.subtext').css('color', 'red');
-    $('.subtext').css('background-color', 'blue');
-  })
+// DOM Manipulation with Pure JavaScript
+const testerPureJavaScriptFunction = () => {
+  const subtext = document.getElementsByClassName('subtext')[0];
+  subtext.setAttribute('style', "background-color: blue" );
 }
 
-testerJs();
+window.addEventListener('load', () => {
+  testerPureJavaScriptFunction();
+})
+
+
+
+// DOM Manipulation with JQuery
+// const testerJQueryFunction = () => {
+//   $(document).ready(() => {
+//       $('.subtext').css('color', 'red');
+//   })
+// }
+
+// testerJQueryFunction();
