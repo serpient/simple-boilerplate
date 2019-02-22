@@ -20,26 +20,20 @@ Instructions to clone this repo.
   - **Keep your repo link handy!**
   ![grab your repo link](https://lh3.googleusercontent.com/-G_Q3EAcuqkw/XHBj5okfwyI/AAAAAAABx0U/MqbNa0C_loUEn3XkA0uBjarSCUddb4qZwCL0BGAYYCw/h838/2019-02-22.png)
   
-### 2. Navigate to the directory you want to keep your project in (say `~/code-projects`)
+### 2. Navigate to the directory you want to keep your project in (say `~/all-code-projects`)
 
 ### 3. Clone this repo to get the boilerplate for your project: `git clone https://github.com/serpient/simple-boilerplate.git <YOUR APP NAME>`
-  - note that you if <YOUR APP NAME> is My First App then the directory to clone into should be `my-first-app`
-    - ex: `git clone https://github.com/serpient/simple-boilerplate.git my-first-app`
-### 4. Replace the link to this repo so that you can save your code under your own repo (the new one you just made)
+  - For example, if <YOUR APP NAME> is 'my-first-app' then the directory will be cloned as a new folder called `my-first-app`
+### 4. Replace the link to this repo with your GitHub repostiory so you can save your code under your own repo (the new one you just made)
   - `git remote rm origin`
   - `git remote add origin <your repo link>`
-    - `<your repo link>` will be the link from the new repo you made in the first step
-      - ex: repo name is my-first-app
-        - repo link will be `https://github.com/your-username/my-first-app`
-      - ex: `git remote add origin https://github.com/your-username/my-first-app`
-### 5. Now open the project in your favorite code editor
-- you will need to install the dependencies to get the boilerplate code working
-  - from your terminal (inside your project directory) enter: `npm install`
-    - this will install the dependencies using NPM (node package manager)
+    - `<your repo link>` will be the link from the new repo you made in the first step. For example, if the repo name is my-first-app, the repo link will be `https://github.com/your-username/my-first-app.git`. the final command would then be `git remote add origin https://github.com/your-username/my-first-app.git`
+### 5. Now open the project in your favorite code editor and install dependencies
+- you will need to install the dependencies to get the boilerplate code working. From your terminal (inside your project directory) enter: `npm install`. This will install the dependencies using NPM (node package manager)
 ### 6. Enter `npm start` to begin working on your project!
   - this command will open your project in the browser
   - as you make changes to the code in the project it will automatically reload the browser page to reflect them
-- you are ready to customize the project any way you'd like!
+  - you are ready to customize the project any way you'd like!
 ### 7. You can save your changes by committing and pushing them to GitHub
   - your local repo has been configured to push changes to the new repo you made automatically
   - read more about the basics of git in our [Chingu Handbook](https://chingu.gitbook.io/cohort/cohort-guide/preparing-for-the-cohort/actionable-items-to-do)
