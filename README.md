@@ -13,9 +13,9 @@ Simple Boilerplate is for HTML/CSS, Javascript, and JQuery projects. It has been
 Instructions to clone this repo.
 ### 1. Create a new repo on GitHub with <YOUR APP NAME> as the Repository name
   ![new repo](https://lh3.googleusercontent.com/-02ntnkIChJ8/XHBj2hn2fLI/AAAAAAABx0M/D-rqT9mPY0EJVsRSJBgAWOzdgDzaZrrewCL0BGAYYCw/h282/2019-02-22.png)
-  - **make sure to not initialize the repo with any data**
-    - **do not check** Initialize this repository with a README
-    - **do not** add a .gitignore or license
+  #### **make sure to NOT initialize the repo with any data**
+   #### **do NOT check** Initialize this repository with a README
+   #### **do NOT** add a .gitignore or license
     ![new repo setup](https://lh3.googleusercontent.com/-qWpiVQk9d4k/XHBj4f3pyII/AAAAAAABx0Q/pNHHBJIio6Mg3bw42uGYQHkWvTvP9I0NwCL0BGAYYCw/h701/2019-02-22.png)
   - **Keep your repo link handy!**
   ![grab your repo link](https://lh3.googleusercontent.com/-G_Q3EAcuqkw/XHBj5okfwyI/AAAAAAABx0U/MqbNa0C_loUEn3XkA0uBjarSCUddb4qZwCL0BGAYYCw/h838/2019-02-22.png)
@@ -28,7 +28,7 @@ Instructions to clone this repo.
   - `git remote rm origin`
   - `git remote add origin <your repo link>`
     - `<your repo link>` will be the link from the new repo you made in the first step. For example, if the repo name is my-first-app, the repo link will be `https://github.com/your-username/my-first-app.git`. the final command would then be `git remote add origin https://github.com/your-username/my-first-app.git`
-### 5. Now open the project in your favorite code editor and install dependencies
+### 5. Now open the project in your favorite code editor and run `npm install` to install dependencies
 - you will need to install the dependencies to get the boilerplate code working. From your terminal (inside your project directory) enter: `npm install`. This will install the dependencies using NPM (node package manager)
 ### 6. Enter `npm start` to begin working on your project!
   - this command will open your project in the browser
