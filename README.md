@@ -23,7 +23,7 @@ Instructions to clone this repo.
 ### 2. Navigate to the directory you want to keep your project in (say `~/all-code-projects`)
 
 ### 3. Clone this repo to get the boilerplate for your project: `git clone https://github.com/serpient/simple-boilerplate.git <YOUR APP NAME>`
-  - For example, if <YOUR APP NAME> is 'my-first-app' then the directory will be cloned as a new folder called `my-first-app`
+  - For example, if `<YOUR APP NAME>` is 'my-first-app' then the directory will be cloned as a new folder called `my-first-app`
 ### 4. Replace the link to this repo with your GitHub repostiory so you can save your code under your own repo (the new one you just made)
   - `git remote rm origin`
   - `git remote add origin <your repo link>`
