@@ -13,12 +13,14 @@ Simple Boilerplate is for HTML/CSS, Javascript, and JQuery projects. It has been
 Instructions to clone this repo.
 ### 1. Create a new repo on GitHub with <YOUR APP NAME> as the Repository name
   ![new repo](https://lh3.googleusercontent.com/-02ntnkIChJ8/XHBj2hn2fLI/AAAAAAABx0M/D-rqT9mPY0EJVsRSJBgAWOzdgDzaZrrewCL0BGAYYCw/h282/2019-02-22.png)
-  #### **make sure to NOT initialize the repo with any data**
-   #### **do NOT check** Initialize this repository with a README
-   #### **do NOT** add a .gitignore or license
-    ![new repo setup](https://lh3.googleusercontent.com/-qWpiVQk9d4k/XHBj4f3pyII/AAAAAAABx0Q/pNHHBJIio6Mg3bw42uGYQHkWvTvP9I0NwCL0BGAYYCw/h701/2019-02-22.png)
-  - **Keep your repo link handy!**
-  ![grab your repo link](https://lh3.googleusercontent.com/-G_Q3EAcuqkw/XHBj5okfwyI/AAAAAAABx0U/MqbNa0C_loUEn3XkA0uBjarSCUddb4qZwCL0BGAYYCw/h838/2019-02-22.png)
+#### **make sure to NOT initialize the repo with any data**
+#### **do NOT check** Initialize this repository with a README
+#### **do NOT** add a .gitignore or license
+![new repo setup](https://lh3.googleusercontent.com/-qWpiVQk9d4k/XHBj4f3pyII/AAAAAAABx0Q/pNHHBJIio6Mg3bw42uGYQHkWvTvP9I0NwCL0BGAYYCw/h701/2019-02-22.png)
+  
+#### **Keep your repo link handy!**
+
+![grab your repo link](https://lh3.googleusercontent.com/-G_Q3EAcuqkw/XHBj5okfwyI/AAAAAAABx0U/MqbNa0C_loUEn3XkA0uBjarSCUddb4qZwCL0BGAYYCw/h838/2019-02-22.png)
   
 ### 2. Navigate to the directory you want to keep your project in (say `~/all-code-projects`)
 
