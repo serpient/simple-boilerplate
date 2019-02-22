@@ -3,34 +3,50 @@
 # simple-boilerplate
 Simple Boilerplate is for HTML/CSS, Javascript, and JQuery projects. It has been setup with a live server so that you can see live changes with every save.
 
+## If you have the outdated version, please either re-clone or do the following:
+- Delete node_modules , package.json, and package-lock.json
+- Copy in the new package.json from this repository into your repository
+- run `npm install`
+- Note that the new serve command is `npm start`
+
 ## Getting Started
 Instructions to clone this repo.
-- create a new repo on GitHub with <YOUR APP NAME> as the Repository name
+### 1. Create a new repo on GitHub with <YOUR APP NAME> as the Repository name
+  ![new repo](https://lh3.googleusercontent.com/-02ntnkIChJ8/XHBj2hn2fLI/AAAAAAABx0M/D-rqT9mPY0EJVsRSJBgAWOzdgDzaZrrewCL0BGAYYCw/h282/2019-02-22.png)
   - **make sure to not initialize the repo with any data**
     - **do not check** Initialize this repository with a README
     - **do not** add a .gitignore or license
-- navigate to the directory you want to keep your project in (say `~/code-projects`)
-- clone this repo to get the boilerplate for your project: `git clone https://github.com/serpient/simple-boilerplate.git <YOUR APP NAME>`
+    ![new repo setup](https://lh3.googleusercontent.com/-qWpiVQk9d4k/XHBj4f3pyII/AAAAAAABx0Q/pNHHBJIio6Mg3bw42uGYQHkWvTvP9I0NwCL0BGAYYCw/h701/2019-02-22.png)
+  - **Keep your repo link handy!**
+  ![grab your repo link](https://lh3.googleusercontent.com/-G_Q3EAcuqkw/XHBj5okfwyI/AAAAAAABx0U/MqbNa0C_loUEn3XkA0uBjarSCUddb4qZwCL0BGAYYCw/h838/2019-02-22.png)
+  
+### 2. Navigate to the directory you want to keep your project in (say `~/code-projects`)
+
+### 3. Clone this repo to get the boilerplate for your project: `git clone https://github.com/serpient/simple-boilerplate.git <YOUR APP NAME>`
   - note that you if <YOUR APP NAME> is My First App then the directory to clone into should be `my-first-app`
     - ex: `git clone https://github.com/serpient/simple-boilerplate.git my-first-app`
-- replace the link to this repo so that you can save your code under your own repo (the new one you just made)
+### 4. Replace the link to this repo so that you can save your code under your own repo (the new one you just made)
   - `git remote rm origin`
   - `git remote add origin <your repo link>`
     - `<your repo link>` will be the link from the new repo you made in the first step
       - ex: repo name is my-first-app
         - repo link will be `https://github.com/your-username/my-first-app`
       - ex: `git remote add origin https://github.com/your-username/my-first-app`
-- now open the project in your favorite code editor
+### 5. Now open the project in your favorite code editor
 - you will need to install the dependencies to get the boilerplate code working
-  - from your terminal (inside your project directory) enter: `npm i`
+  - from your terminal (inside your project directory) enter: `npm install`
     - this will install the dependencies using NPM (node package manager)
-- now just enter `npm start` to begin working on your project!
+### 6. Enter `npm start` to begin working on your project!
   - this command will open your project in the browser
   - as you make changes to the code in the project it will automatically reload the browser page to reflect them
 - you are ready to customize the project any way you'd like!
-- you can save your changes by committing and pushing them to GitHub
+### 7. You can save your changes by committing and pushing them to GitHub
   - your local repo has been configured to push changes to the new repo you made automatically
-  - read more about the basics of git in our [Chingu Handbook]()
+  - read more about the basics of git in our [Chingu Handbook](https://chingu.gitbook.io/cohort/cohort-guide/preparing-for-the-cohort/actionable-items-to-do)
+
+#### Adding more JavaScript files in the project
+When creating more JavaScript files, remember to add them as Scripts in Index.HTML. All JavaScript files are listed at the end of <body>. Remember -- ordering of the JavaScript scripts matter! For example, if you try and use a function from `other.js` in `index.js`, BUT, index.js is imported first in index.html -- it will result in undefined! That's because it doesn't know that `other.js` exists yet!
+
 
 #### What do these commands do?
 - `git clone <github repo link> my-app-name` - Copies the repository onto your computer as a new folder called "my-app-name"
