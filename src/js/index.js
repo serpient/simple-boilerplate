@@ -11,7 +11,14 @@ const changeSubtextBackground = () => {
   subtext.setAttribute('style', "background-color: blue" );
 }
 
+// calling a function from other.js
+// remember to import it into index.html and in the correct order of what is initiated
+exampleJavaScriptFn();
+
+
 // now we call the function defined above
 // it will select the HTML element with id='subtext'
 // then it will color its background blue
 changeSubtextBackground();
+
+
