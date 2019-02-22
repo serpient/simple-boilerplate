@@ -3,13 +3,13 @@
 # simple-boilerplate
 Simple Boilerplate is for HTML/CSS, Javascript, and JQuery projects. It has been setup with a live server so that you can see live changes with every save.
 
-## If you have the outdated version, please either re-clone or do the following:
+# If you have the outdated version, please either re-clone or do the following:
 - Delete node_modules , package.json, and package-lock.json
 - Copy in the new package.json from this repository into your repository
 - run `npm install`
 - Note that the new serve command is `npm start`
 
-## Getting Started
+# Getting Started
 Instructions to clone this repo.
 ### 1. Create a new repo on GitHub with <YOUR APP NAME> as the Repository name
   ![new repo](https://lh3.googleusercontent.com/-02ntnkIChJ8/XHBj2hn2fLI/AAAAAAABx0M/D-rqT9mPY0EJVsRSJBgAWOzdgDzaZrrewCL0BGAYYCw/h282/2019-02-22.png)
@@ -38,11 +38,11 @@ Instructions to clone this repo.
   - your local repo has been configured to push changes to the new repo you made automatically
   - read more about the basics of git in our [Chingu Handbook](https://chingu.gitbook.io/cohort/cohort-guide/preparing-for-the-cohort/actionable-items-to-do)
 
-#### Adding more JavaScript files in the project
-When creating more JavaScript files, remember to add them as Scripts in Index.HTML. All JavaScript files are listed at the end of <body>. Remember -- ordering of the JavaScript scripts matter! For example, if you try and use a function from `other.js` in `index.js`, BUT, index.js is imported first in index.html -- it will result in undefined! That's because it doesn't know that `other.js` exists yet!
+# Adding more JavaScript files in the project
+When creating more JavaScript files, remember to add them as Scripts in `index.html`. All JavaScript files are listed at the end of `<body>`. Remember -- ordering of the JavaScript scripts matter! For example, if you try and use a function from `other.js` in `index.js`, BUT, index.js is imported first in index.html -- it will result in undefined! That's because it doesn't know that `other.js` exists yet!
 
 
-#### What do these commands do?
+# What do these commands do?
 - `git clone <github repo link> my-app-name` - Copies the repository onto your computer as a new folder called "my-app-name"
 - `git remote rm origin` - At this point, this repository copy is still connected to the simple-boilerplate github repository. This command will remove the remote origin link so you can connect it to a new link.
 - `git remote add origin <your github repository link>` - As mentioned above, this is how you add a new origin link for your repository. As in, any changes in your local development will be "pushed" and sent to the repository link you set.
@@ -51,7 +51,7 @@ When creating more JavaScript files, remember to add them as Scripts in Index.HT
 - `npm start` will run the `start` script defined in `package.json`
   - this begins the `live-server` package which opens the browser and hot-reloads whenever you make changes in the project
 
-## Deployment to Github Pages
+# Deployment to Github Pages
 1. In your github repository settings, do the following:
 ![instructions](https://pages.github.com/images/source-setting@2x.png)
 2. Go to your browser and check out `http://<YourUsername>.github.io/<yourRepoName>`. Give it a few minutes to see your changes!
@@ -59,6 +59,6 @@ When creating more JavaScript files, remember to add them as Scripts in Index.HT
 [More Info](https://pages.github.com/)
 
 
-## Deployment to Heroku
+# Deployment to Heroku
 If you want to deploy to Heroku, it would require you to write a small simple server that would serve the `index.html` file as an entry point. This boilerplate isn't setup for that, but feel free to add it yourself!
 [Something to research here](https://blog.teamtreehouse.com/deploy-static-site-heroku)
