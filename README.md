@@ -28,6 +28,7 @@ Instructions to clone this repo.
   - `git remote rm origin`
   - `git remote add origin <your repo link>`
     - `<your repo link>` will be the link from the new repo you made in the first step. For example, if the repo name is my-first-app, the repo link will be `https://github.com/your-username/my-first-app.git`. the final command would then be `git remote add origin https://github.com/your-username/my-first-app.git`
+  - `git push -u origin master` to push all the changes to your remote repository
 ### 5. Now open the project in your favorite code editor and run `npm install` to install dependencies
 - you will need to install the dependencies to get the boilerplate code working. From your terminal (inside your project directory) enter: `npm install`. This will install the dependencies using NPM (node package manager)
 ### 6. Enter `npm start` to begin working on your project!
