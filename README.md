@@ -11,33 +11,33 @@ Simple Boilerplate is for HTML/CSS, Javascript, and JQuery projects. It has been
 
 # Getting Started
 Instructions to clone this repo.
-### 1. Create a new repo on GitHub with <YOUR APP NAME> as the Repository name
+## 1. Create a new repo on GitHub with <YOUR APP NAME> as the Repository name
   ![new repo](https://lh3.googleusercontent.com/-02ntnkIChJ8/XHBj2hn2fLI/AAAAAAABx0M/D-rqT9mPY0EJVsRSJBgAWOzdgDzaZrrewCL0BGAYYCw/h282/2019-02-22.png)
-#### **make sure to NOT initialize the repo with any data**
-#### **do NOT check** Initialize this repository with a README
-#### **do NOT** add a .gitignore or license
+### **make sure to NOT initialize the repo with any data**
+### **do NOT check** Initialize this repository with a README
+### **do NOT** add a .gitignore or license
 ![new repo setup](https://lh3.googleusercontent.com/-qWpiVQk9d4k/XHBj4f3pyII/AAAAAAABx0Q/pNHHBJIio6Mg3bw42uGYQHkWvTvP9I0NwCL0BGAYYCw/h701/2019-02-22.png)
   
-#### **Keep your repo link handy!**
+### **Keep your repo link handy!**
 
 ![grab your repo link](https://lh3.googleusercontent.com/-G_Q3EAcuqkw/XHBj5okfwyI/AAAAAAABx0U/MqbNa0C_loUEn3XkA0uBjarSCUddb4qZwCL0BGAYYCw/h838/2019-02-22.png)
   
-### 2. Navigate to the directory you want to keep your project in (say `~/all-code-projects`)
+## 2. Navigate to the directory you want to keep your project in (say `~/all-code-projects`)
 
-### 3. Clone this repo to get the boilerplate for your project: `git clone https://github.com/serpient/simple-boilerplate.git <YOUR APP NAME>`
+## 3. Clone this repo to get the boilerplate for your project: `git clone https://github.com/serpient/simple-boilerplate.git <YOUR APP NAME>`
   - For example, if `<YOUR APP NAME>` is 'my-first-app' then the directory will be cloned as a new folder called `my-first-app`
-### 4. Replace the link to this repo with your GitHub repostiory so you can save your code under your own repo (the new one you just made)
+## 4. Replace the link to this repo with your GitHub repostiory so you can save your code under your own repo (the new one you just made)
   - `git remote rm origin`
   - `git remote add origin <your repo link>`
     - `<your repo link>` will be the link from the new repo you made in the first step. For example, if the repo name is my-first-app, the repo link will be `https://github.com/your-username/my-first-app.git`. the final command would then be `git remote add origin https://github.com/your-username/my-first-app.git`
   - `git push -u origin master` to push all the changes to your remote repository
-### 5. Now open the project in your favorite code editor and run `npm install` to install dependencies
+## 5. Now open the project in your favorite code editor and run `npm install` to install dependencies
 - you will need to install the dependencies to get the boilerplate code working. From your terminal (inside your project directory) enter: `npm install`. This will install the dependencies using NPM (node package manager)
-### 6. Enter `npm start` to begin working on your project!
+## 6. Enter `npm start` to begin working on your project!
   - this command will open your project in the browser
   - as you make changes to the code in the project it will automatically reload the browser page to reflect them
   - you are ready to customize the project any way you'd like!
-### 7. You can save your changes by committing and pushing them to GitHub
+## 7. You can save your changes by committing and pushing them to GitHub
   - your local repo has been configured to push changes to the new repo you made automatically
   - read more about the basics of git in our [Chingu Handbook](https://chingu.gitbook.io/cohort/cohort-guide/preparing-for-the-cohort/actionable-items-to-do)
 
