@@ -13,8 +13,8 @@ git remote rm origin
 git remote add origin <your github repository link>
 git push -u origin master
 
-npm install -g live-server
 npm install
+npm install -g live-server
 live-server
 ```
 
