@@ -4,7 +4,7 @@
   "description": "HTML/CSS/JS/JQuery Boilerplate with live server setup.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/js/index.js"
+    "start": "live-server"
   },
   "keywords": [
     "boilerplate",
@@ -28,9 +28,8 @@
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
-  },
-  "dependencies": {
+    "babel-preset-env": "^1.7.0",
     "live-server": "^1.2.1"
-  }
+  },
+  "dependencies": {}
 }
