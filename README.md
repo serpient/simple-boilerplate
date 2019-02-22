@@ -25,7 +25,6 @@ live-server
 - `git push -u origin master` - Pushes all your local repository changes to master branch, aka your github repository master-branch.
 - `npm install` - Installs all development dependencies the repository will need. 
 - `npm install -g live-server` - Installs live-server npm package globally on your computer. You will need this to run live-server for your project.
-- `npm i -g live-server` - Installs live-server globally
 - `live-server` - Starts the live server so all changes in your code will be reflected immediately
 
 ## Starting Live Server
