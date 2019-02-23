@@ -9,6 +9,8 @@ Simple Boilerplate is for HTML/CSS, Javascript, and JQuery projects. It has been
 - run `npm install`
 - Note that the new serve command is `npm start`
 
+# [Make sure to have Git, Node/NPM installed before proceeding](https://chingu.gitbook.io/cohort/cohort-guide/preparing-for-the-cohort/actionable-items-to-do)
+
 # [Getting Started (Video Version)](https://vimeo.com/319114424)
 
 
