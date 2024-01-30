@@ -1,5 +1,33 @@
 ![logo](https://user-images.githubusercontent.com/29721784/52025031-c6891b00-24b7-11e9-8cac-4fa4d1dfd10d.png)
 
+# Javascript Interview project
+
+This project was setup with the help of simple-boilerplate: https://github.com/serpient/simple-boilerplate
+
+## Instructions
+
+### 1. Fork this repo with your own Github account.
+
+### 2. Implement the following in javascript in the <i>interview.js</i> file.
+
+i. Implement the sorting of array in alphabetical order in the function <u>sort_array</u>.
+
+ii. Inside the function <u>api_integration</u>, integrate with https://dictionaryapi.dev/ and get the definition(s) of <i>durian</i>.
+
+iii. Using the word <i>rainbow</i>, create an array of objects, where each character is the label and is assigned to a random colour. The object should have the format of { label: "a", colour: "#000000" }. Implement this in the function <u>rainbow_colours</u>.
+
+### 3. Create a pull request (PR) from your forked repo to our repo (https://github.com/EMQ2/javascript-interview-projec)
+
+### 4. Send the PR link back to us for our assessment of your implementation
+
+### 5. Wait for the results!
+
+---
+
+## Original readme.md information are found below this line 
+
+---
+
 # simple-boilerplate
 Simple Boilerplate is for HTML/CSS, Javascript, and JQuery projects. It has been setup with a live server so that you can see live changes with every save.
 
